@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Web title-->
+    <title>Syracuse</title>
+    <link rel="website icon" type="png" href="PicturesW/D Air Jordan 2.png">
+    <!--Web informations-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Shoe Shop"> 
+    <meta name="keywords" content="Shoes, Shop, Nike, Jordan">
+    <meta name=" author" content="Alex"> 
+    
+   
+    <!--Links css file-->
+    <link href="PDP.css" rel="stylesheet">
+
+   
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">   
+</head>
+
+
+<body>
+    
+    <div class="Header">
+        <div class="Menu">
+            <div class="Logo">
+                <img src="PicturesW/Logo 2.1.png" width="230px" style="padding-left: 5px;">
+            </div>
+            <nav>
+                    <ul>
+                        <li><a href="C:\Users\Adriana\OneDrive - sluz\Desktop\INF - Schule\2. Semester INF\M293\1. Website EN\Code\home.html">Home</a></li>
+                        <li><a href="C:\Users\Adriana\OneDrive - sluz\Desktop\INF - Schule\2. Semester INF\M293\1. Website EN\Code\shop.html">Shop</a></li>
+                        <li><a href="C:\Users\Adriana\OneDrive - sluz\Desktop\INF - Schule\2. Semester INF\M293\1. Website EN\Code\about.html">About Us</a></li>
+                        <li><a href="C:\Users\Adriana\OneDrive - sluz\Desktop\INF - Schule\2. Semester INF\M293\1. Website EN\Code\cart.html">Shopping Cart</a></li>
+                    </ul>
+            </nav>
+        </div>
+
+
+
+
+    
+        <main class="container">
+ 
+          <!-- Left Column  -->
+          <div class="left-column">
+            <div class="single-pro-img">
+              <img src="PicturesW/S18 img1.avif" width="100%" id="MainImg" alt="">
+              
+              <div class="small-img-group">
+                <div class="small-img-col">
+                  <img src="PicturesW/S18 img1.avif" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                  <img src="PicturesW/S18 img2.avif" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                  <img src="PicturesW/S18 img3.avif" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                  <img src="PicturesW/S18 img4.avif" width="100%" class="small-img" alt="">
+                </div>
+  
+              </div>
+            </div>
+          </div>
+       
+       
+        <!-- Right Column -->
+        <div class="right-column">
+       
+          <!-- Product Description -->
+          <div class="product-description">
+            <span>Nike Dunk Low SP</span>
+            <h1>Syracuse </h1>
+            <p>Nike celebrated the 35th Anniversary of the Nike Dunk by releasing the Nike Dunk Low SP Syracuse (2020), 
+              now available on Kickscape. The Nike Dunk debuted as part of the 1985 Nike College Color’s program, a program 
+              that delivered footwear in the school colors of 12 popular basketball programs allowing fans to support their 
+              favorite teams from head to toe. This Syracuse colorway was among the first collegiate colorways Nike released, 
+              breaking the mold for colorways used on basketball shoes.</p>
+          </div>
+       
+         <!-- Product Size -->
+         <div class="product-size">
+            <span>Choose your size:</span>
+            <select class="size">
+                <option>37</option>
+                <option>38</option>
+                <option>39</option>
+                <option>40</option>
+                <option>41</option>
+                <option>42</option>
+                <option>43</option>
+
+            </select>
+
+          </div>
+          
+       
+          <!-- Product Pricing -->
+          <div class="product-price">
+            <span>250$</span>
+            <a href="C:\Users\Adriana\OneDrive - sluz\Desktop\INF - Schule\2. Semester INF\M293\1. Website EN\Code\cart.html" class="cart-btn">Add to cart</a>
+          </div>
+        </div>
+      </main>
+
+      <script>
+        var MainImg = document.getElementById("MainImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+         
+         SmallImg[0].onclick = function(){
+             MainImg.src = SmallImg[0].src;
+         }
+         SmallImg[1].onclick = function(){
+             MainImg.src = SmallImg[1].src;
+         }
+         SmallImg[2].onclick = function(){
+             MainImg.src = SmallImg[2].src;
+         }
+         SmallImg[3].onclick = function(){
+             MainImg.src = SmallImg[3].src;
+         }
+ </script>
+</body>
+</html>

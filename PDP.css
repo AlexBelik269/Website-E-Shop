@@ -1,0 +1,166 @@
+/* Basic Styling */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    
+    font-family: 'Montserrat', monospace;
+  }
+  .Menu{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #0f0036;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 19px;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+p{
+    color: #000000;
+}
+h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+    text-align: center;
+    font-size: 70px;
+}
+.Header{
+    max-width: 2000px;
+    margin: auto;
+    font-family: 'Montserrat', monospace;
+    
+}
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+  }
+
+
+  /* Columns */
+.left-column {
+    width: 65%;
+    position: relative;
+  }
+   
+  .right-column {
+    width: 35%;
+    margin-top: 60px;
+    margin-bottom: 55px;
+  }
+
+
+
+
+
+  /* Left Column */
+.single-pro-img{
+  width: 80%;
+  margin-right: 50px;
+}
+
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+
+}
+.small-img-group .small-img{
+  margin: 5px;
+  
+  border: 2px solid black;
+}
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+
+
+
+
+  /* Product Description */
+.product-description {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+  }
+  .product-description span {
+    font-size: 13px;
+    color: #358ED7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .product-description h1 {
+    font-weight: 300;
+    font-size: 52px;
+    color: #43484D;
+    letter-spacing: -2px;
+  }
+  .product-description p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939E;
+    line-height: 24px;
+  }
+
+/* Product Size */
+ .product-size{
+    font-size: 18px;
+    font-weight: 300;
+    color: #6d7780;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+ }
+
+ .size{
+  font-size: 18px;
+ }
+ 
+
+
+
+
+  /* Product Price */
+.product-price {
+    display: flex;
+    align-items: center;
+  }
+   
+  .product-price span {
+    font-size: 26px;
+    font-weight: 300;
+    color: #43474D;
+    margin-right: 20px;
+  }
+   
+  .cart-btn {
+    display: inline-block;
+    background-color: #7DC855;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 30px;
+    transition: all .5s;
+  }
+  .cart-btn:hover {
+    background-color: #64af3d;
+  }

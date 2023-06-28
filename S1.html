@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Web title-->
+    <title>White Black Panda 2021</title>
+    <link rel="website icon" type="png" href="PicturesW/D Air Jordan 2.png">
+    <!--Web informations-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Shoe Shop"> 
+    <meta name="keywords" content="Shoes, Shop, Nike, Jordan">
+    <meta name=" author" content="Alex"> 
+    
+    
+    <!--Links css file-->
+    <link href="PDP.css" rel="stylesheet">
+
+    
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">   
+</head>
+
+
+<body>
+    <!--Logo + Menu-->
+    <div class="Header">
+        <div class="Menu">
+            <div class="Logo">
+                <img src="PicturesW/Logo 2.1.png" width="230px" style="padding-left: 5px;">
+            </div>
+            <nav>
+                    <ul>
+                        <li><a href="C:\Users\Adriana\OneDrive - sluz\Desktop\INF - Schule\2. Semester INF\M293\1. Website EN\Code\home.html">Home</a></li>
+                        <li><a href="C:\Users\Adriana\OneDrive - sluz\Desktop\INF - Schule\2. Semester INF\M293\1. Website EN\Code\shop.html">Shop</a></li>
+                        <li><a href="C:\Users\Adriana\OneDrive - sluz\Desktop\INF - Schule\2. Semester INF\M293\1. Website EN\Code\about.html">About Us</a></li>
+                        <li><a href="C:\Users\Adriana\OneDrive - sluz\Desktop\INF - Schule\2. Semester INF\M293\1. Website EN\Code\cart.html">Shopping Cart</a></li>
+                    </ul>
+            </nav>
+        </div>
+
+
+
+
+    
+    <main class="container">
+ 
+        <!-- Pictures of the shoe -->
+        <div class="left-column">
+          <div class="single-pro-img">
+            <!--Main big Image-->
+            <img src="PicturesW/S1 img1.avif" width="100%" id="MainImg" alt="">
+            
+            <div class="small-img-group">
+              <div class="small-img-col">
+                <!--Smaller images you can switch to-->
+                <img src="PicturesW/S1 img1.avif" width="100%" class="small-img" alt="">
+              </div>
+              <div class="small-img-col">
+                <img src="PicturesW/S1 img2.avif" width="100%" class="small-img" alt="">
+              </div>
+              <div class="small-img-col">
+                <img src="PicturesW/S1 img3.avif" width="100%" class="small-img" alt="">
+              </div>
+              <div class="small-img-col">
+                <img src="PicturesW/S1 img4.avif" width="100%" class="small-img" alt="">
+              </div>
+
+            </div>
+          </div>
+        </div>
+       
+       
+        
+        <div class="right-column">
+       
+          <!-- Product Name and Description -->
+          <div class="product-description">
+            <span>Nike Dunk Low Retro</span>
+            <h1>White Black Panda 2021</h1>
+            <p>From the school-spirited College Colors Program to the vibrant Nike CO.JP collection, 
+              Nike Dunks have seen many colorways since the design’s inception in 1985. But with each new colorway, 
+              the Dunk’s classic color-blocking has remained in some capacity. Nike put its timeless color-blocking to 
+              work with the Nike Dunk Low Retro White Black.</p>
+          </div>
+       
+         <!-- Product Size -->
+          <div class="product-size">
+            <span>Choose your size:</span>
+            <select class="size">
+                <option>37</option>
+                <option>38</option>
+                <option>39</option>
+                <option>40</option>
+                <option>41</option>
+                <option>42</option>
+                <option>43</option>
+
+            </select>
+
+          </div>
+          
+       
+          <!-- Product Pricing -->
+          <div class="product-price">
+            <span>125$</span>
+            <a href="C:\Users\Adriana\OneDrive - sluz\Desktop\INF - Schule\2. Semester INF\M293\1. Website EN\Code\cart.html" class="cart-btn">Add to cart</a>
+          </div>
+        </div>
+      </main>
+
+
+ <!--JS script to be able to switch the smaller pictures with the main picture-->     
+<script>
+       var MainImg = document.getElementById("MainImg");
+       var SmallImg = document.getElementsByClassName("small-img");
+        
+        SmallImg[0].onclick = function(){
+            MainImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function(){
+            MainImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function(){
+            MainImg.src = SmallImg[2].src;
+        }
+        SmallImg[3].onclick = function(){
+            MainImg.src = SmallImg[3].src;
+        }
+</script>
+     
+</body>
+</html>
